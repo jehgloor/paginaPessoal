@@ -5,6 +5,7 @@ body{
     font-size: x-large;
     background-color: black;
     color: white;
+    line-height: 1.5;
 }
 
 .imgPerfil{
@@ -41,12 +42,13 @@ body{
     background-color: rgb(221,175,175);
    } 
 
-.menu > div > p{ /*Meu nome*/
-    padding-left: 6px;
+.menu > p{ /*Meu nome*/
+    padding: 6px;
     font-family: 'Indie Flower', cursive;
     background-color:rgb(221,175,175) ;  
     color: black;
     font-size: x-large;
+    text-transform: uppercase ;
 }
 
 .conteudo{
@@ -60,6 +62,7 @@ body{
     margin-right: 5%;
     font-size: xx-large;
     font-family: 'Indie Flower', cursive;
+    text-transform: uppercase ;
 }
 .textodentrodotitulo{
     margin-right: 12%;
@@ -68,6 +71,33 @@ body{
 
 .subtitulo{
     color:rgb(129,0,127) ;
+}
+
+ul{
+    list-style: none;
+}
+
+.contato a{
+    
+    color: white;
+}
+.contato a:hover{
+    color: #d3a309;
+}
+
+.responsabilidades li:before,#expectativas li:before, #hobbies li:before{
+    content:"✰ ";
+    color: #d3a309;
+   
+}
+
+
+.conquistas li:before{
+    content: "✔ ";
+    color: #d3a309;
+}
+.ri-pushpin-fill{
+    color: red;
 }
 
 .nomedocurso{
