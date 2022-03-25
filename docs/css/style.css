@@ -5,8 +5,6 @@ body{
     font-size: x-large;
     background-color: black;
     color: white;
-    line-height: 1.5;
-    
 
 }
 
@@ -33,6 +31,7 @@ body{
     left: 0;
     overflow-x: hidden;
     display: inline-block;
+    line-height: 1.5;
 }
 
 .navegacao-menu a{
@@ -59,7 +58,7 @@ body{
     text-transform: uppercase ;
     font-weight: bold;
     border-radius: 18px;
-    transition: 2s;
+    transition: 3s;
     margin: 0 25px;
     box-shadow:10px 10px 30px 8px  #000000 
 }
@@ -78,10 +77,11 @@ body{
     padding-left: 20px;
     position: relative;
     margin-top: 7%;
-    
+    line-height: 2;
 }
 
 .titulo{
+    margin-top: 15px;
     background-color: rgb(221,175,175);
     text-align: center;
     margin-right: 5%;
@@ -93,6 +93,8 @@ body{
     font-weight: bolder;
 }
 .textodentrodotitulo{
+    
+    margin-top: 2%;
     margin-right: 12%;
     margin-left: 3%;
 }
@@ -105,11 +107,11 @@ ul{
     list-style: none;
 }
 
-.contato a{
+#contato a{
     
     color: white;
 }
-.contato a:hover{
+#contato a:hover{
     color: #d3a309;
 }
 
