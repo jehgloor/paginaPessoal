@@ -7,15 +7,25 @@ body{
 }
 
 .imgPerfil{
-    width: 13%;
+    width: 160px;
     display: block;
-    margin-left: 1%;
-    margin-top: -5%;
+    left: 44px;
+    top: 5px;
     position: fixed;
     overflow-x: hidden;
     display: inline-block;
     z-index: 1; /*faz com que a imagem sobreponha outra*/
     opacity: 0.8;
+    border-radius: 40%;
+    transition: 1s;
+    /* background: transparent url("../img/fotoPerfil.jpeg"); */
+}
+
+.imgPerfil:hover{
+    width: 165px; 
+    opacity: 1;
+    left: 50px;
+    box-shadow: 10px 10px 30px 8px black ;
 }
 
 .menu > p{ /*Meu nome*/
@@ -35,16 +45,17 @@ body{
 
 .navegacao-menu{
     background-color: rgb(129,0,127);
-    height: 100%;
-    width: 13%;
+    height: 99%; /*altura*/
+    width: 220px;
     position: fixed;
-    margin-top: 15%;
-    margin-left: 2%;
+    padding-top: 120px;
+    margin-left: 14px;
     top: 0 ;
     left: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
     display: inline-block;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .navegacao-menu a{
